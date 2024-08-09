@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachaparty</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white">
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-white text-2xl font-bold">Bachaparty</a>
+                <div class="hidden md:flex space-x-4">
+                    <a href="#" class="text-white hover:bg-blue-600 px-3 py-2 rounded">Home</a>
+                    <a href="#" class="text-white hover:bg-blue-600 px-3 py-2 rounded">About</a>
+                    <a href="#" class="text-white hover:bg-blue-600 px-3 py-2 rounded">Services</a>
+                    <a href="#" class="text-white hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
+                </div>
+                <button id="menu-button" class="md:hidden text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="menu" class="md:hidden hidden absolute top-16 left-0 w-full bg-blue-500 text-white">
+                <a href="#" class="block px-4 py-2 hover:bg-blue-600">Home</a>
+                <a href="#" class="block px-4 py-2 hover:bg-blue-600">About</a>
+                <a href="#" class="block px-4 py-2 hover:bg-blue-600">Services</a>
+                <a href="#" class="block px-4 py-2 hover:bg-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <section id="home" class="bg-blue-100 py-16">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/2 text-left mb-8 md:mb-0 flex flex-col justify-center">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4">Welcome to Bachaparty</h1>
+                <p class="text-base md:text-lg mb-8">Welcome to Bachaparty, your one-stop shop for delightful and imaginative playthings that spark creativity and joy! Our curated selection features a range of high-quality, age-appropriate toys designed to captivate young minds and inspire endless fun. From classic wooden puzzles and educational games to plush companions and innovative STEM kits, every item in our collection is chosen with care to ensure safety, durability, and endless enjoyment. Explore Small Toys today and find the perfect gift to light up a child's world and encourage their growth through play.</p>
+                <a href="#features" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-base md:text-lg hover:bg-blue-700">Explore Now</a>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="https://cdn.firstcry.com/education/2022/11/06094158/Toy-Names-For-Kids.jpg" class="max-w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col gap-8 md:flex-row md:gap-8">
+
+            <!-- Container 1 -->
+            <div class="flex-1 bg-white p-6 rounded-lg shadow-lag">
+                <img src="https://media.licdn.com/dms/image/D4D12AQFffJM6Kup76A/article-cover_image-shrink_720_1280/0/1658750068698?e=2147483647&v=beta&t=6qTl5SFeFrHx5HHXa34CDZJJ_Ad0vfIMfCleixWuJu8" class="w-full h-auto rounded-lg mb-4" alt="Image 1">
+                <h3 class="text-xl font-semibold mb-2">Safe and durable</h3>
+                <p>Our toys are made with the highest safety standards and durable materials.</p>
+            </div>
+
+            <!-- Container 2 -->
+            <div class="flex-1 bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://cdn.cdnparenting.com/articles/2019/04/01122845/Creative-Toys-for-Kids-462740626.webp" class="w-full h-auto rounded-lg mb-4" alt="Image 2">
+                <h3 class="text-xl font-semibold mb-2">Creative play</h3>
+                <p>Encourage creativity and imagination with toys designed to inspire play.</p>
+            </div>
+
+            <!-- Container 3 -->
+            <div class="flex-1 bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://www.theschoolrun.com/sites/theschoolrun.com/files/styles/720/public/katamino_2.jpg.webp?itok=3QvMADDU" class="w-full h-auto rounded-lg mb-4" alt="Image 3">
+                <h3 class="text-xl font-semibold mb-2">Educational toys</h3>
+                <p>Enhance your child's learning with our range of educational toys that make learning fun.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-600 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-base md:text-lg">SHOP NO.1234 F.B BLOCK 20</p>
+            <p class="mt-2 text-sm md:text-base">bachaparty@gmail.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
